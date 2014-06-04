@@ -449,7 +449,7 @@ li {list-style: none outside none !important;}
 	/*margin-top: 370px;*/
 	z-index: 9998;
 	width: 100%;
-	height: 375px;
+	height: 75px;
 	background: #2b3e50;
 	text-align: center;
 }
@@ -823,18 +823,21 @@ li {list-style: none outside none !important;}
 .contactinfo{
 	width: 350px;
 	height: auto;
-	float: left;
-	margin-bottom: 150px;
-	margin-top: 17px;
+/*  float: left;*/
 	font-family: 'Latos', sans-serif;
 	font-size: 17px;
 	font-weight: 400;
 	color: #ffffff;
-	margin: 10px 0px 0px 40px;
-	margin-left: 44px;
+  margin: 10px 0px 0px 40px;
+  margin-left: 20%;
 }
 .contactinfo p{margin-top: 40px; line-height: 25px;}
 .contactinfo h2{margin-bottom: 0px; line-height: normal;}
+
+#vCard {
+  float: right;
+  margin: 50px 150px;
+}
 
 #formulario{
 	float: right;
@@ -848,7 +851,7 @@ li {list-style: none outside none !important;}
 	font-family: 'Lato', sans-serif;
 	font-size: 30px;
 	font-weight: 700;
-	color: #2c3e50;
+	color: #ffffff
 }
 
 .email{
@@ -959,9 +962,7 @@ li {list-style: none outside none !important;}
 	text-align: center;
 }
 
-.pofile-item{width: 210px;float: left; margin: 0px 144px;}
-.pofile-item:first-child{width: 210px;float: left;margin: 0 0 0 10px;}
-.pofile-item:last-child{width: 210px;float: left;margin: 0 10px 0 0;}
+.profile-item{width: 210px;float: left; margin: 50px;}
 
 .profile-element{
 	width: 210px;
@@ -971,9 +972,12 @@ li {list-style: none outside none !important;}
 	background-position: 0px 0px;
 }
 
-.element-1{background: url(../img/about_ico_01.png) no-repeat;}
-.element-2{background: url(../img/about_ico_02.png) no-repeat;}
-.element-3{background: url(../img/about_ico_03.png) no-repeat;}
+.ruby{background: url(../img/about_ico_03.png) no-repeat;}
+.javascript{background: url(../img/about_ico_03.png) no-repeat;}
+.backbone{background: url(../img/about_ico_03.png) no-repeat;}
+.html{background: url(../img/about_ico_02.png) no-repeat;}
+.css{background: url(../img/about_ico_02.png) no-repeat;}
+.git{background: url(../img/about_ico_02.png) no-repeat;}
 
 .profile-element:hover{background-position: 0 -212px; cursor: pointer;}
 
@@ -1110,25 +1114,6 @@ li {list-style: none outside none !important;}
 	cursor: pointer;
 }
 
-.alltweets {
-	float: right;
-	width: 90px;
-	height: 25px;
-	background-color:#ffffff;
-	border-radius:6px;
-	display:inline-block;
-	color:#747065;
-	font-family: 'Open Sans', sans-serif;
-	font-size:16px;
-	font-weight:normal;
-	padding: 7px 24px 3px 24px;
-	text-decoration:none;
-	text-align: center;
-	margin-right: 30px;
-}.alltweets:hover {
-	color: #fff;
-	background-color:#555252;
-}
 
 .last-projects{padding-top: 0px; margin-bottom:40px; width: 100%; overflow: hidden;}
 
@@ -1842,9 +1827,9 @@ body .date{
 .portfolio-btn:hover{color: #ffffff; cursor: pointer;}
 
 .foliomenu{
-	width: 500px;
-	height: 49px;
-	margin: auto;
+  width: 500px;
+  /* height: 49px; */
+  margin: auto 35%;
 }
 
 .all-btn{width: 49px; height: 49px; float: left; background: url(../img/portfolio_all_btn.png) no-repeat; margin-right: 10px;}

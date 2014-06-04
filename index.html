@@ -2,13 +2,10 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Zhyliana</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zhyliana</title>
   
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/favicon.ico">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/base.css">
@@ -43,12 +40,13 @@
         <div class="header-container">
             <a href="#"><div class="content-logo">
             	<div class="logo"></div>
-                <div class="company-name">Zhyliana <span>Garcia</span></div>
+                <div class="company-name">Zhyliana <span>Garcia Valdez</span></div>
             </div></a>
             <div class="block-menu">
                  <select class="navegation_resp" onchange="location.hash=this.options[this.selectedIndex].value;">
                     <option value="#ancla0" selected="selected">Home</option>
-                    <option value="#ancla1" class="second_item">About</option>
+                    <option value="#ancla6" class="second_item">Experience</option>
+                    <option value="#ancla1" class="second_item">Skills</option>
                     <option value="#ancla2" class="second_item">Projects</option>
                     <option value="#ancla3" class="second_item">Reviews</option>
                     <option value="#ancla4" class="second_item">Work</option>
@@ -63,9 +61,14 @@
                                 <div class="contentbtn">home</div>
                             </div></a>
                         </li>
+                        <li>
+                          <a href="#ancla5"><div class="menubtn">
+                              <div class="contentbtn">experience</div>
+                          </div></a>
+                        </li>
                           <li>
                             <a href="#ancla1"><div class="menubtn">
-                                <div class="contentbtn">about</div>
+                                <div class="contentbtn">skills</div>
                             </div></a>
                         </li>
                           <li>
@@ -73,11 +76,11 @@
                                 <div class="contentbtn">projects</div>
                             </div></a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="#ancla3"><div class="menubtn">
                                 <div class="contentbtn">reviews</div>
                             </div></a>
-                        </li>
+                        </li> -->
                         <li>
                             <a href="#ancla4"><div class="menubtn">
                                 <div class="contentbtn">work</div>
@@ -105,16 +108,13 @@
             <div class="ls-layer" style="">
                 <img class="ls-s2" style="left: 50%; top: 155px; slidedirection : top; slideoutdirection : top; delayin : 750;" src="img/slider/shield.png" alt="Slide">
                 <img class="ls-s2" style="left: 50%; top: 155px; slidedirection : right; slideoutdirection : right;" src="img/slider/title.png" alt="Slide">
-                <img class="ls-s2" style="left: 50%; top: 155px; slidedirection : left; slideoutdirection : left; delayin : 250;" src="img/slider/info_02.png" alt="Slide">
-                <div class="ls-s-3 btn-one" style="top: 655px; left: 50%; slidedirection : top; slideoutdirection : top; delayin : 500;">										
-                    <span>Github</span>
+                <!-- <img class="ls-s2" style="left: 50%; top: 155px; slidedirection : left; slideoutdirection : left; delayin : 250;" src="img/slider/info_02.png" alt="Slide"> -->
+                <div class="ls-s-3 btn-one" style="top: 655px; left: 50%; slidedirection : top; slideoutdirection : top; delayin : 500;">	
+                    <a href="www.github.com/zhyliana"><span>Github</span>
                     <span>Tumblr</span>
                 </div>
             </div>
 
-            <div class="ls-layer smile-bg" style="">
-                <img class="ls-s1" style="left: 50%;" src="img/slider/banner_smile.jpg" alt="layer2-background"/>
-            </div>
             
             <div class="ls-layer banner-two" style="">
                 <img class="ls-s2" style="left: 50%; top: 250px; delayin : 500; slidedirection : top; slideoutdirection : top;" src="img/slider/imac.png" alt="Slide">
@@ -127,10 +127,6 @@
                     <span>Jellythemes</span>
                 </div>
             </div>
-            
-            <div class="ls-layer smile-bg2" style="">
-                <img class="ls-s1" style="left: 50%;" src="img/slider/banner_smile_02.jpg" alt="layer4-background"/>
-            </div>
          
         </div>
         <!--LayerSlider end-->
@@ -138,27 +134,37 @@
     
     <section id="about" class="bg-one"><div id="ancla1"></div>
         <div class="section-one">
-        	<div class="title-one">technologies</div>
+        	<div class="title-one">skills & technologies</div>
             <div class="separator"><div class="line line-1"></div></div>
             <div class="data-content-one">
             </div>
             <div class="profile">
-                <div class="pofile-item">
-                    <div class="profile-element element-2">
+                <div class="profile-item">
+                    <div class="profile-element html">
                     </div>
-                    <div class="profile-title"><span>Ruby</span> on Rails</div>
-                    <div class="profile-info"></div>
+                    <div class="profile-title"><span>Ruby</span></div>
                 </div>
-                <div class="pofile-item">
-                    <div class="profile-element element-2">
+                <div class="profile-item">
+                    <div class="profile-element html">
                     </div>
                     <div class="profile-title"><span>Java</span>Script</div>
-                    <div class="profile-info">Lorem Ipsum is simply dummy text ademus et olae of the printing and typesetting industry set.</div>
                 </div>
-                <div class="pofile-item">
-                    <div class="profile-element element-3"></div>
-                    <div class="profile-title"><span>HTML5</span>/CSS3</div>
-                    <div class="profile-info">Lorem Ipsum is simply dummy text ademus et olae of the printing and typesetting industry set.</div>
+                <div class="profile-item">
+                    <div class="profile-element html">
+                    </div>
+                    <div class="profile-title"><span>Backbone.js</span></div>
+                </div>
+                <div class="profile-item">
+                    <div class="profile-element html"></div>
+                    <div class="profile-title"><span>HTML5</span></div>
+                </div>
+                <div class="profile-item">
+                    <div class="profile-element html"></div>
+                    <div class="profile-title"><span>CSS3</span></div>
+                </div>
+                <div class="profile-item">
+                    <div class="profile-element html"></div>
+                    <div class="profile-title"><span>Git</span></div>
                 </div>
             </div>
          </div>
@@ -208,18 +214,19 @@
     </section><!-- end freebies --> 
     
 	
-    <section id="team" class="container"><div id="ancla3"></div>
+    <!-- <section id="team" class="container"><div id="ancla3"></div>
         <div class="section-one">
             <div class="title-one">Reviews</div>
             <div class="separator"><div class="line line-1"></div></div>
             <div class="data-content-one">
-            	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.
+              Enthusiastic Team-Player.
             </div>
             <article class="content-team teamshow">
                 <div class="teamlist">
                     <div class="team">
-                    	<div class="who"><!-- ONE -->
-                            <div class="members-box">
+                      <div class="who"> -->
+                        <!-- ONE -->
+                            <!-- <div class="members-box">
                                 <div class="photo photo-one"></div>
                                 <div class="name-team">Sebastian Doe</div>
                             </div>
@@ -233,8 +240,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="who"><!-- TWO -->
-                            <div class="members-box">
+                        <div class="who"> -->
+                          <!-- TWO -->
+                            <!-- <div class="members-box">
                                 <div class="photo photo-two"></div>
                                 <div class="name-team">Margaret Doe</div>
                             </div>
@@ -248,8 +256,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="who"><!-- THREE -->
-                            <div class="members-box">
+                        <div class="who"> -->
+                          <!-- THREE -->
+                            <!-- <div class="members-box">
                                 <div class="photo photo-three"></div>
                                 <div class="name-team">Christain Doe</div>
                             </div>
@@ -267,7 +276,7 @@
                  </div>
             </article>
         </div>
-    </section><!-- end reviews -->
+    </section> --><!-- end reviews -->
     
        
 <div class="works-container bg-two"><div id="ancla4"></div> 
@@ -276,7 +285,7 @@
         <div class="title-two">work</div>
         <div class="separator"><div class="line line-2"></div></div>
             <div class="data-content-two">
-            	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.
+            	A small selection of my side projects.
             </div>
     	</div>
 
@@ -330,37 +339,23 @@
           <div class="title-two">say hi</div>
           <div class="separator"><div class="line line-2"></div></div>
             <div class="data-content-two">
-            	availablle
+            	I'm always interested in connecting with people.
+            </div>
+            <div id="vCard"> 
+              <img src="img/vCard.png">
             </div>
           <div class="contactinfo">
-            <h2 class="titlecontact">Contact</h2>
-                <p>Zhyliana Garcia Valdez<br>
-                San Francisco, CA</p>
-                <p>(760) 554-9041</p>
-                <p>zhyliana@gmail.com</p>
-                <div class="media">
-                	<a href="#twitter" class="twitter"></a>
-                  <a href="#rss" class="rss"></a>
-                  <a href="#facebook" class="facebook"></a>
-                  <a href="#pinterest" class="pinterest"></a>
-                </div>
+            <h2 class="titlecontact">Contact Info:</h2>
+            <p>Zhyliana Garcia Valdez<br>
+            San Francisco, CA</p>
+            <p>(760) 554-9041<br>
+            zhyliana@gmail.com</p>
+            <div class="media">
+            	<a href="#twitter" class="twitter"></a>
+              <a href="#facebook" class="facebook"></a>
+            </div>
           </div>
-            <form id="formulario" action="/" method="post">	
-            <fieldset>
-            <div class="first">					
-                <label class="data-form" for="nameform">name</label>				
-                <input type="text" name="nameform" id="nameform" value="insert your name" onclick="if(this.value=='insert your name') this.value=''" onblur="if(this.value=='') this.value='Name (required)'">							
-                <label class="data-form" for="emailform">email</label>				
-                <input type="text" name="emailform" id="emailform" value="insert your email" onclick="if(this.value=='insert your email') this.value=''" onblur="if(this.value=='') this.value='insert your email'">			
-            </div>			
-            <div>
-                <label class="data-form" for="messageform">your message</label>
-                <textarea name="messageform" id="messageform" onclick="this.value=''" onblur="if(this.value=='') this.value='insert your message'">insert your message</textarea>
-            </div>					
-            
-            <p><a href="#" class="submit">Send Mail</a></p>	
-            </fieldset>								
-            </form>
+          
     </div>
 </div><!-- end contact -->
 
@@ -436,29 +431,9 @@
     });
 </script>
 
-<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-<script>
-	var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-	s.parentNode.insertBefore(g,s)}(document,'script'));
-</script>
-
 <!-- isotope -->
 <script src="js/jquery.isotope.min.js"></script>
 <script>
-	
-/*
-	calcul();
-	function calcul(){
-		size=$(window).width();
-		if (size > 959) { tam=4;} else
-		if (size > 767) { tam=3;} else
-		if (size > 479) { tam=2;} else
-		if (size < 480) { tam=1;}
-	}
-  */
-
   $(function(){
 	
 	var $container = $('#container2');
@@ -466,15 +441,6 @@
 	$container.isotope({
 	  itemSelector : '.element'
 	});
-	
-/*	$(window).bind("resize", function(){
-	  	vell=tam;
-		calcul();
-		if(vell!=tam){
-			$container.isotope( 'reLayout')
-		}
-	});
-*/
 	
 	var $optionSets = $('#options .option-set'),
 		$optionLinks = $optionSets.find('a');

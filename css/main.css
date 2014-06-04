@@ -972,12 +972,12 @@ li {list-style: none outside none !important;}
 	background-position: 0px 0px;
 }
 
-.ruby{background: url(../img/about_ico_03.png) no-repeat;}
-.javascript{background: url(../img/about_ico_03.png) no-repeat;}
-.backbone{background: url(../img/about_ico_03.png) no-repeat;}
+.ruby{background: url(../img/ruby.png) no-repeat;}
+.javascript{background: url(../img/javascript.png) no-repeat;}
+.backbone{background: url(../img/backbone.png) no-repeat;}
 .html{background: url(../img/about_ico_02.png) no-repeat;}
-.css{background: url(../img/about_ico_02.png) no-repeat;}
-.git{background: url(../img/about_ico_02.png) no-repeat;}
+.css3{background: url(../img/css3.png) no-repeat;}
+.git{background: url(../img/git.png) no-repeat;}
 
 .profile-element:hover{background-position: 0 -212px; cursor: pointer;}
 

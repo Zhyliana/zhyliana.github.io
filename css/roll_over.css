@@ -1,4 +1,4 @@
-.ch-grid{width: 299px; height: 228px;}
+.ch-grid{width: 275px; height: 275px;}
 
 .ch-grid .ch-info {
 	/*position: absolute;
@@ -36,7 +36,7 @@
 	z-index: 1;
 	opacity: 0;
 }.work-info:hover{opacity: 1; cursor: pointer;}
-.work-info span{text-align: center; width: 100%; padding-top: 100px;}
+.work-info span{text-align: center; width: 100%; padding-top: 120px;}
 .work-info span span{font-size: 12px; font-weight: 400; display: block; text-align: center; width: 100%; padding-top: 10px;}
 
 .ch-grid .ch-item:hover {}
@@ -113,11 +113,12 @@
 	height: 221px;
 	position: relative;
 	cursor: default;
+  background-size: 100%;
 }
 
-.ch-grid .ch-img-1 {background-image: url(../img/pf/work_01.jpg);}
-.ch-grid .ch-img-2 {background-image: url(../img/pf/work_02.jpg);}
-.ch-grid .ch-img-3 {background-image: url(../img/pf/work_03.jpg);}
+.ch-grid .ch-img-1 {background-image: url(../img/pf/sketchmate.png);}
+.ch-grid .ch-img-2 {background-image: url(../img/pf/snake.png);}
+.ch-grid .ch-img-3 {background-image: url(../img/pf/ttt.png);}
 .ch-grid .ch-img-4 {background-image: url(../img/pf/work_04.jpg);}
 .ch-grid .ch-img-5 {background-image: url(../img/pf/work_05.jpg);}
 .ch-grid .ch-img-6 {background-image: url(../img/pf/work_06.jpg);}

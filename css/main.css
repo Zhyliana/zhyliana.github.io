@@ -195,7 +195,6 @@ textarea {
 	cursor: pointer;
 }
 
-
 #about{}
 
 .shield{
@@ -233,41 +232,44 @@ textarea {
 	height: 40px;
 }
 
+.btn-one span, .btn-two span {
+  background: rgb(247, 217, 0);
+  color: #696176;
+}.btn-one span:hover, .btn-two span:hover {
+  background: #696176; 
+  cursor: pointer; 
+  color: #FFFFFF;
+}
+
 .btn-one{width: 420px;}
 .btn-one span{
 	text-align: center;
 	display: inline-block;
-	color: #fff;
 	font-size: 14px;
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	padding: 10px 0;
 	margin: 0 10px;
-	background: #e1716d;
-	border: solid 1px #efb2b0;
 	border-radius: 5px;
 	width: 185px;
 	float: left;
-}.btn-one span:hover{border: solid 1px #696176; background: #696176; cursor: pointer;}
+}
 
 .btn-two{width: 1165px;}
 .btn-two span{
 	text-align: center;
 	display: inline-block;
-	color: #fff;
 	font-size: 14px;
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	padding: 10px 0;
 	margin: 0 10px;
-	background: #9e7c9b;
-	border: solid 1px #cbb8c9;
 	border-radius: 5px;
 	width: 185px;
 	float: left;
-}.btn-two span:hover{border: solid 1px #1aace7; background: #1aace7; cursor: pointer;}
+}
 
 .parallax-text{
 	font-family: 'Montserrat', sans-serif;

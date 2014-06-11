@@ -101,7 +101,9 @@
 	z-index: 99;
 }
 
+.ls-s-3 .btn-one {
 
+}
 
 /* Timers */
 
@@ -266,36 +268,6 @@
 .ls-layer > a > * {
 	background-image: url(blank.gif);
 }
-
-
-
-/* Embedded videos */
-
-.ls-vpcontainer {
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	left: 0px;
-	top: 0px;
-}
-
-.ls-videopreview {
-	width : 100%;
-	height : 100%;
-	position : absolute;
-	left : 0px;
-	top : 0px;
-	cursor : pointer;
-}
-
-.ls-playvideo {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	cursor: pointer;
-}
-
-
 
 /* Thumbnails */
 
